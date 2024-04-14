@@ -8,7 +8,6 @@ public class Main {
         int i = 0;
         while (money < 2_459_000) {
             i++;
-            money = money + money;
             money = money + savings;
             System.out.printf("«Месяц %s сумма накоплений равна %s рублей».\n", i, money);
 
@@ -21,7 +20,7 @@ public class Main {
             i = i + 1;
         }
         System.out.println("\n");
-        for (i = 10; i >= 0; i--) {
+        for (i = 10; i >= 1; i--) {
             System.out.println(i);
         }
 
